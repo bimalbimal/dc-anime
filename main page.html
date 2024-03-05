@@ -1,0 +1,510 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!--Get your own code at fontawesome.com-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!--Get your own code at fontawesome.com-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>paralax scrolling website | codehal</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!--Get your own code at fontawesome.com-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!--Get your own code at fontawesome.com-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+       background: #fff;
+       min-height: 100vh;
+       overflow-x: hidden;
+
+}
+
+header {
+
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         padding: 30px 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         z-index: 100; 
+}
+
+.what {
+ padding-top: 0px;
+ padding-left: 400px;
+}
+
+.logo {
+        font-size: 3em;
+        color: #359381;
+        pointer-events: none; 
+        font-family: 'Russo One', sans-serif;
+        
+}
+.navigation a {
+  
+  text-decoration: none;
+  color: #359381;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: 'Lumanosimo', cursive;        
+
+}
+.navigation a:hover {
+
+ 
+ color: white ;
+} 
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-image: url('dark-knights-of-steel-lotta-interna-justice-league-porta-dolorose-conseguenze-v4-551006.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow-y: hidden;
+  transition: 0.5s;
+  
+}
+
+
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 46px;
+  color:  red;
+   display: block;
+  transition: 0.3s;
+ font-family: 'Sacramento', cursive;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.joy {
+
+ font-size:30px;
+ cursor: pointer;
+ color: #359381; 
+
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 350px;
+  left: 650px;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #359381;
+  font-family: 'Ultra', serif;
+} 
+
+.parallax1 {
+  /* The image used */
+  background-image: url("justice-league-team-artwork-65.jpg");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
+
+.hei {
+ 
+ height:500px;
+ background-color: #76786B;
+ font-size:30px;
+ font-family: 'Special Elite', cursive; 
+ color: #EDEDED;
+ background-image: url('lalll.jpg');
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+
+.hei h3 {
+
+ position: absolute;
+  left: 100px;
+  top: 660px;
+}
+
+
+.hei p1 {
+ 
+  position: absolute;
+  left: 100px;
+  top: 740px;
+
+}
+
+.hei p2 {
+ 
+  position: absolute;
+  left: 100px;
+  top: 920px;
+
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("3859260_4312483674_Crime.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hoi {
+
+ height:450px;
+ background-color: #76786B;
+ font-size:30px;
+ font-family: 'Special Elite', cursive; 
+ color: #EDEDED;
+ background-image: url('lalll.jpg');
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+
+
+.hoi p1 {
+ 
+  position: absolute;
+  left: 100px;
+  top: 1650px;
+
+}
+
+.hoi p2 {
+ 
+  position: absolute;
+  left: 100px;
+  top: 1850px;
+
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("elseworlds-arthur-adams-feature-1280x640.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hii {
+
+ height:450px;
+ background-color: #76786B;
+ font-size:30px;
+ font-family: 'Special Elite', cursive; 
+ color: #EDEDED;
+ background-image: url('lalll.jpg');
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+
+
+
+.hii p1 {
+ 
+  position: absolute;
+  left: 100px;
+  top: 2700px;
+
+}
+
+.parallax4 {
+ 
+ 
+  /* Set a specific height */
+  min-height: 500px; 
+  background-image: url('the-batman-who-laughs-dc-wallpaper-3554x1999_53.jpg');
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropbtn {
+
+  color: red;
+  background-color: transparent;
+  font-size: 46px;
+  border: none;
+  font-family: 'Sacramento', cursive;
+  transition: 0.5s;
+   display: block;
+   font-weight: bold;
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color: #f1f1f1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+<body>
+
+ <header>
+        <h2 class="logo">Dc</h2>
+  <div class="what">
+    
+        
+        <nav class="navigation">
+          
+         
+         
+          <a href="#">ANIMATED</a>
+          <a href="#"> COMICS</a>
+          <a href="#"> CHARACTERS</a>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <div class="dropdown">
+              
+                <button class="dropbtn">Multiversal Characters / Earths</button>
+                <div class="dropdown-content">
+                  <a href="original multiverse.html">The Original Multiverse</a>
+                  <a href="the divine continum.html">The Divine Continuum</a>
+                  
+                </div>
+              </div>
+
+              <a href="#">Multiversal Events</a>
+              <a href="#">Gods And Beyond The Multiverse </a>
+              <a href="#">Multiversal Locations</a>
+            </div>
+          </div>
+          
+          
+          <span class="joy"  onclick="openNav()">&#9776;</span>
+
+          <script>
+          function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+          }
+
+          function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+          }
+          </script>
+     
+         
+
+
+          
+         
+        </nav>
+  </div>
+ </header>  
+
+
+<div class="container">
+ 
+  <div class="centered">DC COMICS: THE MULTIVERSE SAGA </div>
+</div>
+
+<div class="parallax1">
+</div>
+
+ <div class="hei">
+
+<h3>Basis Of Dc Multiverse</h3>
+
+<p1> The DC Comics Multiverse refers to the fictional reality that encompasses all the different universes, dimensions, and alternate realities within the DC Comics' fictional universe. It's a concept that allows DC Comics to tell stories featuring different versions of their iconic characters and explore diverse narratives without being constrained by a single continuity.</p1>
+
+<p2>In the DC Multiverse, there are numerous parallel worlds, each with its own distinct history, characters, and events. These alternate realities often coexist independently of each other, but occasionally, characters from different universes come together in crossover events or crisis scenarios.</p2>
+ </div>
+
+<div class="parallax2">
+</div>
+
+<div class="hoi">
+<p1>The concept of the DC Multiverse was officially introduced in the early 1960s with "The Flash" issue #123, titled "Flash of Two Worlds." In this story, the Silver Age Flash (Barry Allen) accidentally discovers the existence of Earth-Two, where the Golden Age Flash (Jay Garrick) resides. This revelation led to the idea that there are multiple Earths with different versions of DC's characters.</p1>
+
+<p2>Over the years, DC Comics has expanded the Multiverse, adding more Earths and alternate realities through various events and storylines. Crisis events, in particular, have been significant in shaping and redefining the Multiverse. Examples of such events include "Crisis on Infinite Earths," "Infinite Crisis," "Final Crisis," and "Flashpoint."</p2>
+</div>
+
+<div class="parallax3">
+</div>
+
+<div class="hii">
+<p1>The Multiverse allows DC creators to explore various creative ideas, introduce new characters, reimagine existing ones, and offer readers exciting and unique stories that wouldn't be possible within a single, continuous universe. It also provides an opportunity to revisit and pay homage to different eras of DC Comics history while keeping the characters fresh and engaging for readers.</p1>
+</div>
+
+<div class="parallax4">
+</div>
+
+</body>
+</html>
